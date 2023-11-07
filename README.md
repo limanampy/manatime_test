@@ -1,7 +1,10 @@
 # manatime_test
 
 Ce site Web de gestion de données permet d'ajouter des données dynamiquement à un tableau et de les afficher de manière cohérente. Le formulaire d'ajout de données suit certaines contraintes et propose des fonctionnalités spécifiques pour garantir l'intégrité des données.
-Instructions
+
+En comparaison, Vercel est une plateforme d'hébergement offrant des fonctionnalités plus avancées que GitHub Pages. Elle inclut notamment la prise en charge d'applications web dynamiques. Vercel se distingue par son environnement de déploiement automatisé et continu, en faisant un choix adapté aux projets plus complexes. De plus, Vercel propose des options de personnalisation plus avancées pour vos environnements de développement. Il convient aussi bien aux projets statiques qu'aux projets dynamiques.
+
+Il est essentiel de noter que Vercel peut être utilisé en collaboration avec des dépôts GitHub, vous permettant d'héberger votre projet sur GitHub tout en utilisant Vercel pour le déploiement. Cette combinaison offre les avantages des deux services
 
 1. Le formulaire d'ajout de données du site permet de choisir un utilisateur parmi une liste déroulante prédéfinie, de saisir une catégorie avec une mise en évidence en orange pour "Congés payés" et en violet pour toute autre catégorie, de sélectionner une période avec affichage de l'année uniquement dans le tableau, et d'entrer un nombre entier pour le solde, automatiquement converti en 0 en cas de valeur négative
 
