@@ -3,6 +3,9 @@ import React, { useEffect, useState } from "react";
 import { DashboardLayout } from "../components/common/Layout/LayoutDashBoard";
 import Image from "next/image";
 import Menu from "../components/common/modal/page";
+import ajust from "../../public/images/Ajuster.svg";
+import solder from "../../public/images/Solder.svg";
+import transfer from "../../public/images/Transferer.svg";
 
 interface RowData {
   key: string;
@@ -101,7 +104,7 @@ const HomePage = () => {
                 <td className="border  border-slate-300   h-[38px]  px-[42px] py-[15px] ">
                   <div className="flex flex-row ">
                     <Image
-                      src="/images/ajuster.svg"
+                      src={ajust}
                       alt="ajuster"
                       className="dark:invert "
                       width={32}
@@ -109,7 +112,7 @@ const HomePage = () => {
                       priority
                     />
                     <Image
-                      src="/images/Transferer.svg"
+                      src={transfer}
                       alt="Transferer"
                       className="dark:invert mx-[30px]  py-[3px] cursor-pointer"
                       width={32}
@@ -117,7 +120,7 @@ const HomePage = () => {
                       priority
                     />
                     <Image
-                      src="/images/Solder.svg"
+                      src={solder}
                       alt="Solder"
                       className="dark:invert py-[3px] cursor-pointer"
                       width={32}
