@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
-
+import avatar from "../../../../public/images/Photo.png";
+import logo from "../../../../public/images/Logo.svg";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   return (
@@ -71,7 +72,7 @@ const Navbar = () => {
         </ol>
         <div className="flex md:hidden">
           <Image
-            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsupport.manatime.com%2Fhc%2Ffr&psig=AOvVaw241fJ5xo6w3cBHVI57xnL8&ust=1699469377123000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCcgPbGsoIDFQAAAAAdAAAAABAE"
+            src={logo}
             alt="stripe1"
             className="dark:invert cursor-pointer"
             width={150}
@@ -82,7 +83,7 @@ const Navbar = () => {
         <div className="flex flex-row-reverse  items-center">
           <div className="flex flex-col items-center">
             <Image
-              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-icons.com%2Fpt%2Ficone%2Favatar-feminino-mulher-pessoa-pessoas-branco-tom%2F159360&psig=AOvVaw3p9yQSt7SfI0lI2TRZqDyz&ust=1699469548907000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIiW-cfHsoIDFQAAAAAdAAAAABAJ"
+              src={avatar}
               alt="stripe1"
               className="dark:invert cursor-pointer hover:opacity-50"
               width={42}
