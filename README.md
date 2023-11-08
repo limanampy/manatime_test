@@ -2,6 +2,8 @@
 
 Ce site Web de gestion de données permet d'ajouter des données dynamiquement à un tableau et de les afficher de manière cohérente. Le formulaire d'ajout de données suit certaines contraintes et propose des fonctionnalités spécifiques pour garantir l'intégrité des données.
 
+Il est souvent préférable d'utiliser Vercel pour le déploiement de sites web en raison de ses fonctionnalités avancées, de ses performances améliorées, de son intégration CI/CD plus robuste et de sa flexibilité accrue, notamment pour les projets plus complexes. De plus, il est essentiel de noter que Vercel peut être parfaitement intégré avec des dépôts GitHub, ce qui vous permet de héberger votre projet sur GitHub tout en profitant des fonctionnalités de déploiement de Vercel
+
 
 1. Le formulaire d'ajout de données du site permet de choisir un utilisateur parmi une liste déroulante prédéfinie, de saisir une catégorie avec une mise en évidence en orange pour "Congés payés" et en violet pour toute autre catégorie, de sélectionner une période avec affichage de l'année uniquement dans le tableau, et d'entrer un nombre entier pour le solde, automatiquement converti en 0 en cas de valeur négative
 
